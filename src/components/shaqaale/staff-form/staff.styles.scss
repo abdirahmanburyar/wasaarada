@@ -1,0 +1,49 @@
+.staff-box {
+    width: 100%;
+    margin: 20px auto;
+    
+    .staff-info {
+        &:hover{
+            background: #8d86aa;
+            color: white;
+        }
+    }
+    .handle-staff {
+        width: 50%;
+        
+        & span:first-child {
+            margin-right: 15px;
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+                background: #765fdb;
+                border-radius: 5px;
+                i {
+                    color: white;
+                }
+            }
+        }
+        & span:last-child {
+            margin-left: 15px;
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+                background: #765fdb;
+                border-radius: 5px;
+            }
+        }
+
+
+    }
+    .zero-staff{
+        font-size: 2rem;
+        background: #eb8f8f;
+        text-align: center;
+        margin-top: 20px;
+        height: 200px;
+    }
+}

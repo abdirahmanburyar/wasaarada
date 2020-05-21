@@ -1,0 +1,53 @@
+.dashboard{
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 42px;
+    min-height: 571px;
+    box-shadow: 2px 0px 4px 2px gray;
+    background: paleturquoise;
+
+    .logout_btn{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .title{
+        font-size: 15px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 10px;
+        background: #3d473d;
+        opacity: 0.8;
+        width: 100%;
+        color: #778877;
+    }
+    .dash-ul{
+        width: 100%;
+        list-style: none;
+
+        li{
+            width: 100%;
+            border-bottom: 1px solid gray;
+            cursor: pointer;
+            padding: 5px;
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            .links {
+                list-style: none;
+                text-decoration: none;
+                color: black;
+            }
+            &:hover{
+                background: #778877;
+                opacity: 0.8;
+                color: black;
+
+                
+            }
+        }
+    }
+}

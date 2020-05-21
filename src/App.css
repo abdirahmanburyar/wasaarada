@@ -1,0 +1,12 @@
+.App {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.component{
+  width: 75%;
+  margin: 50px auto;
+  right: 10px;
+  position: absolute;
+}

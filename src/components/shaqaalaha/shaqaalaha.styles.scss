@@ -1,0 +1,41 @@
+.ws {
+    width: 100%;
+    margin: 10px auto;
+    display: grid;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 3px;
+        .staff {
+            text-decoration: none;
+            width: 300px;
+            height: 250px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            cursor: pointer;
+            border-radius: 5px;
+            &:hover{
+                box-shadow: 1px 1px 1px 1px gray;
+            }
+
+        .image{
+            width: '100%';
+            height: '90%';
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            border-bottom: 1px solid black;
+        }
+        .title{
+            font-size: 20px;
+            color: black;
+        }
+        .money{
+            width: 100%;
+            height: 80%;
+        }
+    }
+}

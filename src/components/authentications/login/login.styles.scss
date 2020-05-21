@@ -1,0 +1,23 @@
+.login-form{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background: grayscale($color: #f1cfcf);
+    flex-direction: column;
+    form{
+        width: 50%;
+        margin: 30px auto;
+    }
+    .error-handler {
+        width: 100%;
+        border-bottom: 1px solid ;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #c72548;
+        color: white;
+    }
+}
